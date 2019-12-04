@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/map.rpy", line 31: invalid syntax
+        def unoccupy(self, x, y)
+    
+
+Ren'Py Version: Ren'Py 7.3.4.596
+Sat Nov 30 20:54:25 2019

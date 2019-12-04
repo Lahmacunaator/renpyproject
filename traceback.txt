@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/map.rpy", line 14, in script
+    init python:
+  File "game/map.rpy", line 91, in <module>
+    object_sprite = MapDenizen(0, 2, "object_9.png", 256, 256)
+TypeError: __init__() takes exactly 7 arguments (6 given)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/map.rpy", line 14, in script
+    init python:
+  File "D:\renpy-7.3.4-sdk\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\renpy-7.3.4-sdk\renpy\python.py", line 2008, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/map.rpy", line 91, in <module>
+    object_sprite = MapDenizen(0, 2, "object_9.png", 256, 256)
+TypeError: __init__() takes exactly 7 arguments (6 given)
+
+Windows-8-6.2.9200
+Ren'Py 7.3.4.596
+ 
+Sat Nov 30 20:55:25 2019
