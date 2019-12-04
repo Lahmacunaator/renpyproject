@@ -9,7 +9,7 @@
 
 screen map_screen(aMap):
 
-    add "backbackground1"
+    add "#000"
 
     $offset_x = 640 - (80 * aMap.center_x) + 40
     $offset_y = 280 - (80 * aMap.center_y) + 40
